@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.trybewarts-login button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.trybewarts-login button:hover {
+  background-color: yellow;
+}
+
+.trybewarts-login input {
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+#form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name-container , .email-house-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-left: 20px;
+}
+
+#input-name , #input-lastname , #input-email , #house , .radio-container {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#input-lastname , #house {
+  order: 1;
+  width: 100%;
+}
+
+.rate-container {
+  display: flex;
+}
+
+.label-concorda {
+  display: flex;
+}
